@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contan{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(6,100px);
+    grid-template-areas:
+    "sce sce sce sce"
+    "div cle del del"
+    "num7 num8 num9 add"
+    "num4 num5 num6 min"
+    "num1 num2 num3 time"
+    "num0 num10 calc calc";
+    justify-content: center;
+    margin-top: 30px;
+}
+button{
+    background-color: rgb(90, 87, 87) ;
+    color: white;
+    font-size: 20px;
+}
+#calc-screen{
+    grid-area: sce;
+    font-size: 30px;
+}
+.div{
+    grid-area: div;
+}
+#clear{
+    grid-area: cle;
+}
+#del{
+    grid-area: del;
+}
+.n7{
+    grid-area: num7;
+}
+.n8{
+    grid-area: num8;
+}
+.n9{
+    grid-area: num9;
+}
+.add{
+    grid-area: add;
+}
+.n4{
+    grid-area: num4;
+}
+.n5{
+    grid-area: num5;
+}
+.n6{
+    grid-area: num6;
+}
+.min{
+    grid-area: min;
+}
+.n1{
+    grid-area: num1;
+}
+.n2{
+    grid-area: num2;
+}
+.n3{
+    grid-area: num3;
+}
+.time{
+    grid-area: time;
+}
+.n0{
+    grid-area: num0;
+}
+.n10{
+    grid-area: num10;
+}
+#calc{
+    grid-area: calc;
+}

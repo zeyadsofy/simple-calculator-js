@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="contan">
+        <input type="text" id="calc-screen" placeholder="0">
+        <button id="clear">cl</button>
+        <button onclick="calc()" id="calc">=</button>
+        <button onclick="del()" id="del"><i class="fa-solid fa-delete-left"></i></button>
+        <button onclick="display('+')" class="add"><i class="fa-solid fa-plus"></i></button>
+        <button onclick="display('-')" class="min"><i class="fa-solid fa-minus"></i></button>
+        <button onclick="display('/')" class="div"><i class="fa-solid fa-divide"></i></button>
+        <button onclick="display('*')" class="time"><i class="fa-solid fa-xmark"></i></button>
+        <button onclick="display('1')" class="n1">1</button>
+        <button onclick="display('2')" class="n2">2</button>
+        <button onclick="display('3')" class="n3">3</button>
+        <button onclick="display('4')" class="n4">4</button>
+        <button onclick="display('5')" class="n5">5</button>
+        <button onclick="display('6')" class="n6">6</button>
+        <button onclick="display('7')" class="n7">7</button>
+        <button onclick="display('8')" class="n8">8</button>
+        <button onclick="display('9')" class="n9">9</button>
+        <button onclick="display('0')" class="n0">0</button>
+        <button onclick="display('.')" class="n10">.</button>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
